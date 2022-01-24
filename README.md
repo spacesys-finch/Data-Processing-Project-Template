@@ -1,6 +1,6 @@
-# Data-Processing: Smile/Keystone Distortion
+# Data-Processing: [enter project name]
 
-Quantification and correction of Smile and Keystone distortion; 
+[one liner project descriotion]; 
 Part of the ground processing architecture for FINCH's SWIR hyperspectral pushbroom imagery.
 
 Given the comms error-corrected, reconstructed data cube, we will be generating Level 1B data. See the ground processing flowchat on our Confluence page for a high-level breakdown of the steps involved: http://spacesys.utat.ca/confluence/display/FIN/Ground+Processing+Flowchart
@@ -43,7 +43,7 @@ cd /Applications/Python\ [whatever python version you have (eg. 3.8)]/
 Clone the repo using [Github Desktop](https://desktop.github.com/) or the commandline via:
 
 ```
-git clone https://github.com/spacesys-finch/Smile-Keystone.git
+git clone https://github.com/spacesys-finch/[name of the repo].git
 ```
 
 From within the cloned repo, run poetry's install command to install all the dependencies in one go:
